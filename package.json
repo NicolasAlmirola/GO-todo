@@ -1,7 +1,10 @@
 {
-  "name": "platzi-intro-react-base",
-  "version": "0.1.0",
+  "name": "go-todo",
+  "version": "0.9.0",
+  "private": true,
+  "homepage": "https://NicolasAlmirola.github.io/GO-todo",
   "dependencies": {
+    "gh-pages": "^6.0.0",
     "react": "^18",
     "react-calendar": "^4.6.0",
     "react-dom": "^18",
@@ -11,6 +14,8 @@
     "web-vitals": "^3.3.2"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "eject": "react-scripts eject"

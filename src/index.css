@@ -1,0 +1,94 @@
+/* Estilos generales */
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Estilos para el fondo del cuerpo */
+body {
+  background-image: linear-gradient(to right top, #9805fc, #7e36f7, #6649f0, #5254e5, #435cd8);
+}
+
+.new-todo img {
+  display: none;
+}
+
+.new-todo button {
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+  z-index: 999; 
+}
+
+/* Estilos para las secciones */
+.TodoList {
+  width: 100%;
+  margin: 10px 0;
+  background-color: rgba(255, 255, 255);
+  background: linear-gradient(45deg, #c1c1c1, #e5e5e5);
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.widgets {
+  height: 300px;
+  margin: 10px;
+  background-color: rgb(255, 255, 255);
+  display: none; /*Quitarlo cuando la seccion este hecha. */
+}
+
+/* Media query para pantallas más grandes (ejemplo: a partir de 768px) */
+@media (min-width: 768px) {
+  header {
+    padding: 10px;
+  }
+
+  main {
+    padding: 0 20px;
+    display: flex;
+  }
+
+  .new-todo {
+    width: 400px;
+    height: 555px;
+    background: #0B145A;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    margin: 0 0 17px 0;
+  }
+
+  .todos {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .widgets {
+    width: 400px;
+    height: 555px;
+    background: #0B145A;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    margin: 0 0 17px 0;
+    display: none; /*Quitarlo cuando la seccion este hecha. */
+  }
+
+  .new-todo button {
+    position: relative;
+    margin: 20px;
+    right: 0;
+  }
+
+  .new-todo img {
+    display: block;
+    width: 100%;
+    object-fit: cover;
+    margin: 180px 0 0 0;
+  }
+}

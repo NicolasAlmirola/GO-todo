@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/GO-todo/static/css/main.4956df9b.css",
+    "main.js": "/GO-todo/static/js/main.223915d5.js",
+    "static/media/Img-Todo-Create.png": "/GO-todo/static/media/Img-Todo-Create.5cf41c19380f71d0ddfd.png",
+    "index.html": "/GO-todo/index.html",
+    "static/media/delete.svg": "/GO-todo/static/media/delete.7018c4465589031bd51c8efbe21df9ca.svg",
+    "static/media/check.svg": "/GO-todo/static/media/check.e9a948bba52a34123d2ed7aeda0ea495.svg",
+    "main.4956df9b.css.map": "/GO-todo/static/css/main.4956df9b.css.map",
+    "main.223915d5.js.map": "/GO-todo/static/js/main.223915d5.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4956df9b.css",
+    "static/js/main.223915d5.js"
+  ]
+}

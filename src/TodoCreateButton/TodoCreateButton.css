@@ -2,11 +2,11 @@
 Button {
     position: relative;
     padding: 12px 35px;
-    background: #C645D9;
+    background: #73347D;
     font-size: 17px;
     font-weight: 500;
     color: #ffffff;
-    border: 3px solid #C645D9;
+    border: 3px solid #73347D;
     border-radius: 8px;
     box-shadow: 0 0 0 #fec1958c;
     transition: all .3s ease-in-out;
@@ -15,7 +15,7 @@ Button {
 
 Button:hover {
     background: transparent;
-    color: #C645D9;
+    color: #73347D;
     box-shadow: 0 0 25px #fec1958c;
 }
 
